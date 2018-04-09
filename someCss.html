@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>someCss</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        .container{
+            position: relative;
+            text-align: center;
+            color:chocolate;
+        }
+        .centered{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        p.dotted{border-style: dotted;}
+    </style>
+</head>
+<body>
+    <h3>Text that is centered on a photo</h3>
+    <div class="container">
+        <img src="http://www.bcskinvet.com/storage/app/media/heroimage0.291126001503946346.jpg"
+             alt="husky" width="600" height="450" frameborder="0">
+            <div class="centered">Centered</div>
+    </div>
+
+    <h3>A photo with 20 pixel margins on each side</h3>
+    <p>
+        <img src="https://i.gifer.com/1LGy.gif"
+             alt="cute gif" width="90" height="50" frameborder="0"
+             align="middle" hspace="20">
+        Test if this term works.
+    </p>
+
+    <h3>Text with a border that uses dotted lines</h3>
+    <p class="dotted">A dotted border.</p>
+</body>
+</html>
